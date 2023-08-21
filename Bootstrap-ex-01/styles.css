@@ -1,0 +1,117 @@
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.bg-image{
+    background-image: linear-gradient(to bottom, rgba(0,0,0, .3),rgba(0,0,0, .6)),
+    url(./assets/img/pexels-cottonbro-studio-3585091.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.container-footer_imgs {
+    flex-direction: column;
+    
+}
+
+.bg-footer{
+    background-color: black;
+}
+
+@media (min-width: 766px) and (max-width: 1200px) {
+
+    /* cellphone-container */
+
+    .container-cellphone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-cellphone_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-cellphone_image{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* wrap-container */
+
+    .container-wrap{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container-wrap_sections{
+        width: 100%;
+    }
+
+    /* container img-neon */
+
+    .container-img-neon{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-img-neon_text{
+        width: 100%;
+    }
+
+    .container-footer_imgs {
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 766px) {
+
+    .container-cellphone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-cellphone_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-cellphone_image{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-wrap{
+        flex-direction: column-reverse;
+
+    }
+
+    .container-wrap_sections{
+        flex-direction: column;
+    }
+
+    .container-footer_imgs {
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 456px) {
+
+    .nav-heading .container-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-cellphone{
+        margin-top: 30%;
+    }
+    
+}
